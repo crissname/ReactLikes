@@ -15,6 +15,7 @@ function App() {
           <form>
             <input className="input" placeholder="Введіть email"/>
             <input className="input" placeholder="Ввкдіть пароль"/>
+            <input className="input" placeholder="Номер телефону"/>
           </form>
 
         </div>
