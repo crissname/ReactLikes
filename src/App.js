@@ -8,14 +8,21 @@ function App() {
   return (
     <div className="App">
 
-      <button  onClick={() => setOpen(true)} className="open-modal-btn">✨ Открыть окно</button>
+      <button onClick={() => setOpen(true)} className="open-modal-btn">Відкрити форму реєстрації</button>
 
-      <div onClick={()=> setOpen((false))} className={`overlay animated ${open ? 'show' : '' }`}>
+      <div className={`overlay animated ${open ? 'show' : ''}`}>
         <div className="modal">
+          <svg onClick={() => setOpen((false))} height="200" viewBox="0 0 200 200" width="200">
+            <title/>
+            <path
+              d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"/>
+          </svg>
           <form>
-            <input className="input" placeholder="Введіть email"/>
-            <input className="input" placeholder="Ввкдіть пароль"/>
-            <input className="input" placeholder="Номер телефону"/>
+            <input className="input" type='email' placeholder="Введіть email"/>
+            <input className="input" type='number' placeholder="Номер телефону"/>
+            <input className="input" type='password' placeholder="Введіть пароль"/>
+            <input className="input" type='password' placeholder="Повторити пароль"/>
+            <button className='open-modal-btn modal_btn'>Зареєструватися</button>
           </form>
 
         </div>
