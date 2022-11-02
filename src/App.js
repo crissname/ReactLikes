@@ -36,7 +36,7 @@ function Game() {
   return (
     <>
       <div className="progress">
-        <div style={{ width: '50%' }} className="progress__inner"></div>
+        <div style={{ width: '20%' }} className="progress__inner"></div>
       </div>
       <h1>Что такое useState?</h1>
       <ul>
