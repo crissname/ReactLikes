@@ -3,7 +3,9 @@
     border-radius: 10px 10px 0 0;
     position: relative;
 }
-
+.add-todo{
+    cursor: pointer;
+}
 .add-todo svg {
     position: absolute;
     width: 50px;

@@ -1,0 +1,17 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    width: 600px;
+    min-height: 400px;
+    max-height: 600px;
+}
+.display__btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.btn__edite-close{
+    display: flex;
+}
+.btn__edite{
+    margin-right: 10px;
+}
