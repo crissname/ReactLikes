@@ -19,25 +19,25 @@ body {
     background-color: #fff;
     position: relative;
 }
-.App result{
+.App .result{
 text-align: center;
 }
-.App result button{
+.App .result button{
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     border-radius: 30px;
     border: 0;
     padding: 15px 30px;
     font-size: 20px;
-    background-color: darken(#ff006e, 3%);
+    background-color: #ff006e;
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
 }
-.App result h2{
+.App .result h2{
     margin-bottom: 0;
 }
-.App result img{
+.App .result img{
     width: 150px;
 }
 .App .progress{
