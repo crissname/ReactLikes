@@ -21,7 +21,7 @@ const TodoHeader = ({
     const date = moment().format('MMMM do YYYY')
 
     return (
-        <div className='todo__header bg-cyan-700'>
+        <div className='todo__header'>
             <div className='counter-wrapper'>
                 <div className='todos-counter'>
                     <span className='todo-counter-big'>{totalCount.finished}</span>

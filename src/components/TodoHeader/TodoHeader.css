@@ -2,6 +2,7 @@
     height: 100px;
     border-radius: 10px 10px 0 0;
     position: relative;
+    background-color: #2c8eef;
 }
 .add-todo{
     cursor: pointer;
