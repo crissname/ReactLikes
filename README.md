@@ -18,3 +18,5 @@ There are several branches in this repository, each branch is a separate project
 1. Like counter
 2. Modal window
 3. Quiz
+4. To_Do
+5. Simple Drag & Drop
